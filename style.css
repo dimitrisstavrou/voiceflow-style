@@ -4,3 +4,12 @@ window.voiceflow.chat.load({
     stylesheet: "https://cdn.jsdelivr.net/gh/dimitris123/voiceflow-style/style.css"
   }
 });
+<script>
+  window.voiceflow.chat.load({
+    verify: { projectID: "YOUR_PROJECT_ID" },
+    assistant: {
+      stylesheet: "https://cdn.jsdelivr.net/gh/dimitrisstavrou/voiceflow-style/style.css"
+    }
+  });
+</script>
+
