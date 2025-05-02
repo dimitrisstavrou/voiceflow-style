@@ -1,15 +1,21 @@
-window.voiceflow.chat.load({
-  verify: { projectID: "your_project_id" },
-  assistant: {
-    stylesheet: "https://cdn.jsdelivr.net/gh/dimitris123/voiceflow-style/style.css"
-  }
-});
-<script>
-  window.voiceflow.chat.load({
-    verify: { projectID: "YOUR_PROJECT_ID" },
-    assistant: {
-      stylesheet: "https://cdn.jsdelivr.net/gh/dimitrisstavrou/voiceflow-style/style.css"
-    }
-  });
+<script type="text/javascript">
+  (function(d, t) {
+      var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+      v.onload = function() {
+        window.voiceflow.chat.load({
+          verify: { projectID: '678e2b60caab4cd5361d4c86' },
+          url: 'https://general-runtime.voiceflow.com',
+          versionID: 'production',
+          voice: {
+            url: "https://runtime-api.voiceflow.com"
+          },
+          assistant: {
+            stylesheet: "https://cdn.jsdelivr.net/gh/dimitrisstavrou/voiceflow-style/style.css"
+          }
+        });
+      }
+      v.src = "https://cdn.voiceflow.com/widget-next/bundle.mjs"; 
+      v.type = "text/javascript"; 
+      s.parentNode.insertBefore(v, s);
+  })(document, 'script');
 </script>
-
