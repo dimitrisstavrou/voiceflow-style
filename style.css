@@ -1,0 +1,6 @@
+window.voiceflow.chat.load({
+  verify: { projectID: "your_project_id" },
+  assistant: {
+    stylesheet: "https://cdn.jsdelivr.net/gh/dimitris123/voiceflow-style/style.css"
+  }
+});
